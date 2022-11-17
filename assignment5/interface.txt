@@ -1,0 +1,29 @@
+interface cars
+{
+    float rateofInterst();
+}
+
+class lambo implements cars
+{
+    public float rateofInterst()
+    {
+        return 9.15f;
+    }
+}
+
+class buggati implements cars 
+{
+    public float rateofInterst()
+    {
+        return 9.9f;
+    }
+}
+
+class interface
+{
+    public static void main(string[]args)
+    {
+        cars b = new lambo();
+        system.out.println(b.rateofInterst());
+    }
+}

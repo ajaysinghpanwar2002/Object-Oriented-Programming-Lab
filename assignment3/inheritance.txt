@@ -1,0 +1,16 @@
+class employee
+{
+    string salary =  4cr/month
+}
+
+class Programmer extends employee
+{
+    string bonus = 1cr/month
+    public static void main(string args[])
+    {
+        Programmer p = new Programmer();
+        system.out.println("programmer salary" + p.salary);
+        system.out.println("programmer bonus" + p.bonus);
+    }
+}
+

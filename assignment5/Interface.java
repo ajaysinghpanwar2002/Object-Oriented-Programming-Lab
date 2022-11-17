@@ -279,13 +279,10 @@ class Bicycle implements vehicleFunctions {
 }
 
 public class Interface {
-
     public static void main(String[] args) {
-
         Car c = new Car();
         Bike mb = new Bike();
         Bicycle b = new Bicycle();
-
         Scanner sc = new Scanner(System.in);
         int op = 0, op1 = 0, x = 0;
         do {
@@ -296,9 +293,7 @@ public class Interface {
             System.out.println("3. Bicycle");
             System.out.println("*. Press any other numeric key to exit.");
             System.out.println("-->");
-
             op = sc.nextInt();
-
             switch (op) {
                 case 1:
                     do {
@@ -309,10 +304,8 @@ public class Interface {
                         System.out.println("3. Gear Up");
                         System.out.println("4. Gear Down");
                         System.out.println("*. Press any other numeric key to go to the main menu.");
-
                         op1 = sc.nextInt();
                         switch (op1) {
-
                             case 1:
                                 System.out.println("By how much do you want to increase the speed : ");
                                 x = sc.nextInt();
@@ -344,10 +337,8 @@ public class Interface {
                             default:
                                 op1 = 0;
                         }
-
                     } while (op1 != 0);
                     break;
-
                 case 2:
                     do {
                         System.out.println("Bike");
@@ -357,7 +348,6 @@ public class Interface {
                         System.out.println("3. Gear Up");
                         System.out.println("4. Gear Down");
                         System.out.println("*. Press any other numeric key to go to the main menu.");
-
                         op1 = sc.nextInt();
                         switch (op1) {
                             case 1:
@@ -393,7 +383,6 @@ public class Interface {
                         }
                     } while (op1 != 0);
                     break;
-
                 case 3:
                     do {
                         System.out.println("*. Bicycle");
@@ -403,7 +392,6 @@ public class Interface {
                         System.out.println("3. Gear Up");
                         System.out.println("4. Gear Down");
                         System.out.println("*. Press any other numeric key to go to the main menu.");
-
                         op1 = sc.nextInt();
                         switch (op1) {
                             case 1:
@@ -440,13 +428,11 @@ public class Interface {
                         }
                     } while (op1 != 0);
                     break;
-
                 default:
                     op = 0;
                     break;
             }
         } while (op != 0);
-
         sc.close();
     }
 
