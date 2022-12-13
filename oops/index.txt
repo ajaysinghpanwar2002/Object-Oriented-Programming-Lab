@@ -1,0 +1,7 @@
+OOPs
+Polymorphism 
+Inheritence
+Encapsulation
+Abstraction
+Interfaces
+Static Keyword

@@ -79,6 +79,6 @@ public class oops {
 
         // so yeh basically kuch nhe kr rha h, bas us object ke properties ko print krna iska kaam h 
         s2.printInfo();
-
+        
     }
 }
