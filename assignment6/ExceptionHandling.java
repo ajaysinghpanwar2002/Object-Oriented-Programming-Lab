@@ -78,7 +78,7 @@ public class ExceptionHandling {
 							System.out.println(e);
 						}
 					}
-					break;
+					break; 
 				case 5:
 					if (!flag) {
 						System.out.println("Please create an array first!!");

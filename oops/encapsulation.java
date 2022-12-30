@@ -1,7 +1,7 @@
 package oops;
 
 //  Encapsulation :- Wrapping up of data member (variables) and member function (method) together into a single unit called is known as encapsulation 
-//  Abstraction :- It is the act of representung essential features of class without including the background details.
+//  Abstraction :- It is the act of representing essential features of class without including the background details.
 
 // abstract keyword lga ke class ko abstract bna diya, abstract matlab yeh sirf ek concept h, you cannot create a object of this class. 
 abstract class Animal {

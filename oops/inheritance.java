@@ -5,7 +5,6 @@ class shape{
     public void area()
     {
         System.out.println("displays area");
-
     }
 }
 // "triangle" class ne "shape" class ke properties ko le liya 

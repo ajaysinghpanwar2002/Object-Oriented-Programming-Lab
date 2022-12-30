@@ -1,6 +1,6 @@
 package oops;
 
-// Polymorphism :- It is the ability of an object to behave in different form according to the message passed to it. In java it is implimentes due to function ove loading 
+// Polymorphism :- It is the ability of an object to behave in different form according to the message passed to it. In java it is implimentes due to function over loading 
 class Students {
     String name;
     int age;

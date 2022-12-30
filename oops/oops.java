@@ -11,7 +11,7 @@ class Pen {
         System.out.println("write something...");
     }
 
-    // printcolor function bhe bna diya, 
+    // "printcolor" function bhe bna diya, 
     public void printColor()
     {
         // isme "this" ka use kiya h jo objet usey call krega uski props print karega 
@@ -19,14 +19,14 @@ class Pen {
     }
 }
 
-// ab 1 student class bna de 
+// ab 1 "student" class bna de 
 class Student{
     // class ke kuch properties
     String Name;
     int age;
     String Gender;
 
-    // ab is "printInfo" function ke andar 2 cheeze print hogi 
+    // ab is "printInfo" function ke andar 3 cheeze print hogi 
     public void printInfo(){
         System.out.println(this.Name);
         System.out.println(this.age);
@@ -46,7 +46,6 @@ class Student{
         this.age = age;
     }
 
-
 }
 
 // yeh apni main class h, file name same rkhna h 
@@ -54,7 +53,7 @@ public class oops {
     // yeh apna main function h 
     public static void main(String args[]) {
         
-        // "pen1" ek object bnaya h "Pen" clss ka 
+        // "pen1" ek object bnaya h "Pen" class ka 
         Pen pen1 = new Pen();
         // us object ko ab properties bhe assign kr de h 
         pen1.color = "red";
