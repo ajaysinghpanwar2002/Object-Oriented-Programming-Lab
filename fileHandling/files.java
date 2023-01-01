@@ -25,7 +25,7 @@ public class files {
         // iscommand se apne file ke details de de h, example uski location, and "fout" ke reference bna diya h.
         fout = new FileOutputStream("C:/Users/Ajay singh/vscode/OOPslab/ajayhandlesfile.txt", true);
         // yeh string ko ab yeh character by character file mein likhega
-        String s = "Tata";
+        String s = "ajay";
         // string ka character array bna diya
         char ch[] = s.toCharArray();
         // for loop utne baar chalege jitne character honge
